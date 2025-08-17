@@ -1,0 +1,1 @@
+function createRoom(){ let roomId=Math.random().toString(36).substring(2,8).toUpperCase(); console.log(`방 생성됨: ${roomId}`); return roomId; } function joinRoom(roomId){ console.log(`${roomId} 방 입장`); }
